@@ -26,7 +26,7 @@ const weekdays = [
 const giveawayEnd = document.querySelector('.giveaway__subtitle');
 const giveawayTimers = document.querySelectorAll('.giveaway__deadline span');
 const deadLine = document.querySelector('.giveaway__deadline');
-console.log(deadLine);
+
 
 let currentDate = new Date();
 let currentYear = currentDate.getFullYear();
